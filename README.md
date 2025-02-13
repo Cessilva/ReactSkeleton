@@ -13,7 +13,7 @@ JSDoc generator:  for JavaScript, TypeScript and Typescript.
 ## Estructura del Mensaje de Commit
 Para asegurar la coherencia y claridad en los mensajes de commit, utilizamos el siguiente formato:
 
-<tipo>(<alcance>): <asunto>
+```<tipo>(<alcance>): <asunto>```
 
 ### Componentes del Mensaje
 
