@@ -56,3 +56,32 @@ Utilizar una estructura consistente en los mensajes de commit ayuda a mantener u
 
 ## Extensiones Utilizadas
 - JSDoc generator:  for JavaScript, TypeScript and Typescript.
+- Prettier: Para su uso agrega la siguiente configuración a tu setting.json
+
+```json
+{"workbench.colorTheme": "Default Dark+",
+    "[typescript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": 1,
+    "[scss]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.settings.applyToAllProfiles": [],
+    "settingsSync.ignoredSettings": []} 
+```
+

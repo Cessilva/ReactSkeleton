@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 /**
  * Componente para mostrar una imagen aleatoria.
@@ -8,5 +8,5 @@ import Image from "next/image";
  * @returns {JSX.Element} El elemento de la imagen renderizado.
  */
 export const RandomImage = (alt: string, src: string): JSX.Element => {
-    return <Image alt={alt} src={src} />;
+  return <Image alt={alt} src={src} />;
 };
