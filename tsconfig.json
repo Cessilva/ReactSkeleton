@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "ES2017",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -17,6 +21,12 @@
     "noImplicitReturns": true,
     "forceConsistentCasingInFileNames": true, // Agregado para reconocer typedocs
     "outDir": "./dist" // Agregado para reconocer typedocs
+    ,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
   "include": [
     "next-env.d.ts",

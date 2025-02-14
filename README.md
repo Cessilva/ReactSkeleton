@@ -1,13 +1,10 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Run the development server
-npm run dev
-## Run the TSDoc
-npm run docs
+## Corriendo el programa
 
-
-## EXTENSIONS
-JSDoc generator:  for JavaScript, TypeScript and Typescript.
+- Corre el servidor de desarrollo:
+```npm run dev```
+- Genera la documentación de TypeDoc:
+```npm run docs```
 
 
 ## Estructura del Mensaje de Commit
@@ -35,13 +32,27 @@ Para asegurar la coherencia y claridad en los mensajes de commit, utilizamos el 
 ### Ejemplos de Mensajes de Commit Válidos
 
 1. **Agregar nueva funcionalidad**:
-feat: Añadir funcionalidad de carga de imágenes
+`feat(components-image): Añadir funcionalidad de carga de imágenes`
 2. **Corregir un error**:
-fix: Resolver el problema de visualización en dispositivos móviles
+`fix: Resolver el problema de visualización en dispositivos móviles`
 3. **Refactorizar código**:
-refactor: Simplificar la lógica en la función de autenticación
+`refactor: Simplificar la lógica en la función de autenticación`
 
+### Ejemplos de Errores
+
+1. **Sin tipo especificado**:
+`Añadir funcionalidad de carga de imágenes`
+2. **Tipo incorrecto**:
+`update: Resolver el problema de visualización en dispositivos móviles`
+3. **Asunto demasiado largo**:
+`feat(componentes-imagenes): Esta es una descripción extremadamente larga que supera el límite de 150 caracteres y no debería ser aceptada en un commit`
+4. **Uso incorrecto de mayúsculas y separaciones**:
+`feat(Componentes Imágenes): El alcance debería estar en kebab-case (en minúsculas y con guiones)`
 
 ### Importancia de la Estructura
 
 Utilizar una estructura consistente en los mensajes de commit ayuda a mantener un historial claro y comprensible, facilitando la colaboración y la revisión de cambios en el proyecto.
+
+
+## Extensiones Utilizadas
+- JSDoc generator:  for JavaScript, TypeScript and Typescript.

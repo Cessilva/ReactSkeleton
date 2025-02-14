@@ -6,5 +6,7 @@
 	"exclude": ["**/*.spec.ts", "**/node_modules/**"], 
 	"theme": "default", 
 	"includeVersion": true, 
-	"tsconfig": "tsconfig.json" 
+	"tsconfig": "tsconfig.json" ,
+	"readme": "./README.md",
+	"hideGenerator": true // Opcional: oculta la etiqueta de TypeDoc
   }
