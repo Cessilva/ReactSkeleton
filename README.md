@@ -57,9 +57,9 @@ Utilizar una estructura consistente en los mensajes de commit ayuda a mantener u
 ## Extensiones Utilizadas
 - JSDoc generator:  for JavaScript, TypeScript and Typescript.
 - Prettier: Para su uso agrega la siguiente configuración a tu setting.json
-
 ```json
 {"workbench.colorTheme": "Default Dark+",
+    "editor.multiCursorModifier": "ctrlCmd",
     "[typescript]": {
         "editor.formatOnSave": true,
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -84,4 +84,11 @@ Utilizar una estructura consistente en los mensajes de commit ayuda a mantener u
     "workbench.settings.applyToAllProfiles": [],
     "settingsSync.ignoredSettings": []} 
 ```
+- html to JSX: You can select your html text and use the shortcut ctrl+alt+x
+- ES7+ React/Redux/React-Native snippets
 
+## Extensiones de pruebas unitarias
+- Jest Snippets 
+
+## Extensiones de GOOGLE
+- React Developer Tools
