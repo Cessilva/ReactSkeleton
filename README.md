@@ -86,6 +86,8 @@ Utilizar una estructura consistente en los mensajes de commit ayuda a mantener u
 ```
 - html to JSX: You can select your html text and use the shortcut ctrl+alt+x
 - ES7+ React/Redux/React-Native snippets
+- Inline fold
+- Tailwind CSS IntelliSense
 
 ## Extensiones de pruebas unitarias
 - Jest Snippets 
