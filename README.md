@@ -82,7 +82,9 @@ Utilizar una estructura consistente en los mensajes de commit ayuda a mantener u
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "workbench.settings.applyToAllProfiles": [],
-    "settingsSync.ignoredSettings": []} 
+    "settingsSync.ignoredSettings": [],
+    "inlineFold.autoFold": false
+}
 ```
 - html to JSX: You can select your html text and use the shortcut ctrl+alt+x
 - ES7+ React/Redux/React-Native snippets

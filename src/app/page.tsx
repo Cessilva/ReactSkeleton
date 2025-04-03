@@ -1,8 +1,6 @@
+import Dashboard from './modules/dashboard';
 
 export default function Home() {
-  return (
-    <div >
-      React TS Project
-    </div>
-  );
+  // React TS Project
+  return <Dashboard></Dashboard>;
 }
