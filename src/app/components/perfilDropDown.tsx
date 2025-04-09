@@ -28,12 +28,12 @@ export const ProfileDropdown = () => {
       {/* Botón de hamburguesa para móvil */}
       <button
         id="mobile-open-button"
-        className="text-2xl p-2 sm:hidden focus:outline-none transition-colors duration-200 hover:te"
+        className="text-2xl sm:hidden flex items-center h-full gap-2 focus:outline-none cursor-pointer rounded-md p-4 hover:border-neutral-400 hover:border transition-all duration-200"
         onClick={() => setIsOpen(!isOpen)}
         aria-expanded={isOpen}
         aria-haspopup="true"
       >
-        &#9776;
+        <span className="material-icons text-lg text-primary-50">menu</span>
       </button>
       {/* Div de perfil para desktop */}
       <div
@@ -67,16 +67,15 @@ export const ProfileDropdown = () => {
             </div>
             <a
               href="#perfil"
-              className="flex items-center px-8 mt-4 py-3 text-base text-neutral-400 hover:text-neutral-50 hover:translate-x-2 transition-all duration-300"
+              className="flex items-center pl-6 sm:px-8 py-3 text-sm sm:text-base text-primary-50 hover:translate-x-2 transition-all duration-300"
               role="menuitem"
             >
               <span className="material-icons text-lg">account_circle</span>
               <span className="ml-3">Perfil</span>
             </a>
-
             <a
               href="#cerrar-sesion"
-              className="flex items-center px-8 py-3 text-base text-neutral-400 hover:text-neutral-50 hover:translate-x-2 transition-all duration-300"
+              className="flex items-center pl-6 sm:px-8 py-3 text-sm sm:text-base text-primary-50 hover:translate-x-2 transition-all duration-300"
               role="menuitem"
             >
               <span className="material-icons text-lg">exit_to_app</span>
