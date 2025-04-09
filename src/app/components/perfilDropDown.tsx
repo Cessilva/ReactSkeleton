@@ -1,10 +1,19 @@
 'use client';
 import { useState, useRef, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import { PerfilView } from './perfilView';
 
 export const ProfileDropdown = () => {
+  const router = useRouter();
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const dropdownRef = useRef<HTMLDivElement | null>(null);
+
+  const handleLogout = () => {
+    // Close the dropdown
+    setIsOpen(false);
+    // Redirect to auth page
+    router.push('/auth');
+  };
 
   // Cerrar dropdown al hacer clic fuera
   useEffect(() => {
@@ -73,14 +82,14 @@ export const ProfileDropdown = () => {
               <span className="material-icons text-lg">account_circle</span>
               <span className="ml-3">Perfil</span>
             </a>
-            <a
-              href="#cerrar-sesion"
-              className="flex items-center pl-6 sm:px-8 py-3 text-sm sm:text-base text-primary-50 hover:translate-x-2 transition-all duration-300"
+            <button
+              onClick={handleLogout}
+              className="flex items-center w-full text-left pl-6 sm:px-8 py-3 text-sm sm:text-base text-primary-50 hover:translate-x-2 transition-all duration-300"
               role="menuitem"
             >
               <span className="material-icons text-lg">exit_to_app</span>
               <span className="ml-3">Cerrar Sesión</span>
-            </a>
+            </button>
           </div>
         </div>
       )}
