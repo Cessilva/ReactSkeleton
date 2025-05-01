@@ -90,7 +90,7 @@ Utilizar una estructura consistente en los mensajes de commit ayuda a mantener u
 - ES7+ React/Redux/React-Native snippets
 - Inline fold
 - Tailwind CSS IntelliSense
-
+-"tailwind-merge": "^3.2.0"  -> Utility function to efficiently merge Tailwind CSS classes in JS without style conflicts.
 ## Extensiones de pruebas unitarias
 - Jest Snippets 
 

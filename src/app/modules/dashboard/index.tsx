@@ -1,5 +1,7 @@
+import Button from '../../components/button';
 import { DashboardDropdown } from '../../components/dashboardDropDown';
 import { ProfileDropdown } from '../../components/perfilDropDown';
+import Link from 'next/link';
 
 export default function Dashboard() {
   return (
@@ -18,18 +20,21 @@ export default function Dashboard() {
               PORTAL IOT
             </a>
           </h1>
-          <div className=" w-full h-full flex flex-row justify-end sm:justify-between items-center">
-            <DashboardDropdown />
+          <div className="w-full h-full flex flex-row justify-end sm:justify-between items-center">
+            <div className="hidden sm:flex items-center space-x-4">
+              <DashboardDropdown />
+              <Link
+                href="/catalog"
+                className="px-3 py-2 rounded hover:bg-primary-800 transition-colors"
+              >
+                Design System
+              </Link>
+            </div>
             <ProfileDropdown />
           </div>
         </section>
       </header>
-      <main className="bg-black max-w-screen mx-auto">
-        <section
-          id="perfil"
-          className=" flex flex-col-reverse justify-center sm:flex-row px-6 items-center gap-8 mb-12"
-        ></section>
-      </main>
+      <main className=" max-w-screen max-h-screen mx-auto"></main>
     </div>
   );
 }
