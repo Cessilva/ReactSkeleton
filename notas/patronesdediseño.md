@@ -156,3 +156,10 @@ Ganchos Patrón:
 Introducidos en React 16.8, los hooks son funciones que permiten a los desarrolladores utilizar el estado y otras características de React en componentes funcionales. Con hooks como useState, useEffect, useContext y useReducer, los desarrolladores pueden encapsular la lógica y el estado dentro de componentes funcionales, eliminando la necesidad de componentes de clase y promoviendo un estilo de programación más funcional.
 
 Estos son solo algunos ejemplos de patrones de diseño utilizados habitualmente en el desarrollo con React.js. Al entender y aplicar estos patrones de manera efectiva, Desarrolladores de React.js puede escribir código más limpio y fácil de mantener y crear aplicaciones robustas y escalables con React.
+
+?
+Componentes Controlados vs No Controlados
+Render Props: Compartir código entre componentes usando props
+Higher-Order Components (HOC): Funciones que toman un componente y devuelven uno nuevo
+Compound Components: Componentes que trabajan juntos para formar una API cohesiva
+Context API: Para pasar datos a través del árbol de componentes sin props drilling
